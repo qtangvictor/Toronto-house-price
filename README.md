@@ -6,4 +6,4 @@ An end-to-end machine learning project to predict house price in Toronto.
 - 3)Training models in AWS sagemaker with the code in training-model-in-aws.ipynb and deploy the model as endpoint.
 - 4)After deployment, build a lambda function deployment package that can invoke endpoint (see lambda function folder).
 - 5)build a AWS API gateway that can receive API calls from web app and can trigger lambda function that created above.Then we can make post request to AWS sagemaker endpoint to get inference.
-- 6) build a web app to enable real time house price prediction, as index.html shows.
+- 6)build a web app to enable real time house price prediction, as index.html shows.
